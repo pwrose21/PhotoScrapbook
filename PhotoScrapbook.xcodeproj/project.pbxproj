@@ -1,0 +1,546 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		5C9510742E661A40001F9F2E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5C95105D2E661A40001F9F2E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5C9510642E661A40001F9F2E;
+			remoteInfo = PhotoScrapbook;
+		};
+		5C95107E2E661A40001F9F2E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5C95105D2E661A40001F9F2E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5C9510642E661A40001F9F2E;
+			remoteInfo = PhotoScrapbook;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5C9510652E661A40001F9F2E /* PhotoScrapbook.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PhotoScrapbook.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5C9510732E661A40001F9F2E /* PhotoScrapbookTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PhotoScrapbookTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5C95107D2E661A40001F9F2E /* PhotoScrapbookUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PhotoScrapbookUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		5C9510672E661A40001F9F2E /* PhotoScrapbook */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = PhotoScrapbook;
+			sourceTree = "<group>";
+		};
+		5C9510762E661A40001F9F2E /* PhotoScrapbookTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = PhotoScrapbookTests;
+			sourceTree = "<group>";
+		};
+		5C9510802E661A40001F9F2E /* PhotoScrapbookUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = PhotoScrapbookUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5C9510622E661A40001F9F2E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5C9510702E661A40001F9F2E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5C95107A2E661A40001F9F2E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5C95105C2E661A40001F9F2E = {
+			isa = PBXGroup;
+			children = (
+				5C9510672E661A40001F9F2E /* PhotoScrapbook */,
+				5C9510762E661A40001F9F2E /* PhotoScrapbookTests */,
+				5C9510802E661A40001F9F2E /* PhotoScrapbookUITests */,
+				5C9510662E661A40001F9F2E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5C9510662E661A40001F9F2E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5C9510652E661A40001F9F2E /* PhotoScrapbook.app */,
+				5C9510732E661A40001F9F2E /* PhotoScrapbookTests.xctest */,
+				5C95107D2E661A40001F9F2E /* PhotoScrapbookUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5C9510642E661A40001F9F2E /* PhotoScrapbook */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5C9510872E661A40001F9F2E /* Build configuration list for PBXNativeTarget "PhotoScrapbook" */;
+			buildPhases = (
+				5C9510612E661A40001F9F2E /* Sources */,
+				5C9510622E661A40001F9F2E /* Frameworks */,
+				5C9510632E661A40001F9F2E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				5C9510672E661A40001F9F2E /* PhotoScrapbook */,
+			);
+			name = PhotoScrapbook;
+			packageProductDependencies = (
+			);
+			productName = PhotoScrapbook;
+			productReference = 5C9510652E661A40001F9F2E /* PhotoScrapbook.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5C9510722E661A40001F9F2E /* PhotoScrapbookTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5C95108A2E661A40001F9F2E /* Build configuration list for PBXNativeTarget "PhotoScrapbookTests" */;
+			buildPhases = (
+				5C95106F2E661A40001F9F2E /* Sources */,
+				5C9510702E661A40001F9F2E /* Frameworks */,
+				5C9510712E661A40001F9F2E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5C9510752E661A40001F9F2E /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				5C9510762E661A40001F9F2E /* PhotoScrapbookTests */,
+			);
+			name = PhotoScrapbookTests;
+			packageProductDependencies = (
+			);
+			productName = PhotoScrapbookTests;
+			productReference = 5C9510732E661A40001F9F2E /* PhotoScrapbookTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5C95107C2E661A40001F9F2E /* PhotoScrapbookUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5C95108D2E661A40001F9F2E /* Build configuration list for PBXNativeTarget "PhotoScrapbookUITests" */;
+			buildPhases = (
+				5C9510792E661A40001F9F2E /* Sources */,
+				5C95107A2E661A40001F9F2E /* Frameworks */,
+				5C95107B2E661A40001F9F2E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5C95107F2E661A40001F9F2E /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				5C9510802E661A40001F9F2E /* PhotoScrapbookUITests */,
+			);
+			name = PhotoScrapbookUITests;
+			packageProductDependencies = (
+			);
+			productName = PhotoScrapbookUITests;
+			productReference = 5C95107D2E661A40001F9F2E /* PhotoScrapbookUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5C95105D2E661A40001F9F2E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1640;
+				LastUpgradeCheck = 1640;
+				TargetAttributes = {
+					5C9510642E661A40001F9F2E = {
+						CreatedOnToolsVersion = 16.4;
+					};
+					5C9510722E661A40001F9F2E = {
+						CreatedOnToolsVersion = 16.4;
+						TestTargetID = 5C9510642E661A40001F9F2E;
+					};
+					5C95107C2E661A40001F9F2E = {
+						CreatedOnToolsVersion = 16.4;
+						TestTargetID = 5C9510642E661A40001F9F2E;
+					};
+				};
+			};
+			buildConfigurationList = 5C9510602E661A40001F9F2E /* Build configuration list for PBXProject "PhotoScrapbook" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5C95105C2E661A40001F9F2E;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 5C9510662E661A40001F9F2E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5C9510642E661A40001F9F2E /* PhotoScrapbook */,
+				5C9510722E661A40001F9F2E /* PhotoScrapbookTests */,
+				5C95107C2E661A40001F9F2E /* PhotoScrapbookUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5C9510632E661A40001F9F2E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5C9510712E661A40001F9F2E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5C95107B2E661A40001F9F2E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5C9510612E661A40001F9F2E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5C95106F2E661A40001F9F2E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5C9510792E661A40001F9F2E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5C9510752E661A40001F9F2E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5C9510642E661A40001F9F2E /* PhotoScrapbook */;
+			targetProxy = 5C9510742E661A40001F9F2E /* PBXContainerItemProxy */;
+		};
+		5C95107F2E661A40001F9F2E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5C9510642E661A40001F9F2E /* PhotoScrapbook */;
+			targetProxy = 5C95107E2E661A40001F9F2E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		5C9510852E661A40001F9F2E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5C9510862E661A40001F9F2E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		5C9510882E661A40001F9F2E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = PhotoScrapbook/PhotoScrapbook.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.peytonrose.PhotoScrapbook;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				REGISTER_APP_GROUPS = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		5C9510892E661A40001F9F2E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = PhotoScrapbook/PhotoScrapbook.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.peytonrose.PhotoScrapbook;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				REGISTER_APP_GROUPS = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		5C95108B2E661A40001F9F2E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.peytonrose.PhotoScrapbookTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PhotoScrapbook.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/PhotoScrapbook";
+			};
+			name = Debug;
+		};
+		5C95108C2E661A40001F9F2E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.peytonrose.PhotoScrapbookTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PhotoScrapbook.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/PhotoScrapbook";
+			};
+			name = Release;
+		};
+		5C95108E2E661A40001F9F2E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.peytonrose.PhotoScrapbookUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = PhotoScrapbook;
+			};
+			name = Debug;
+		};
+		5C95108F2E661A40001F9F2E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.peytonrose.PhotoScrapbookUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = PhotoScrapbook;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5C9510602E661A40001F9F2E /* Build configuration list for PBXProject "PhotoScrapbook" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5C9510852E661A40001F9F2E /* Debug */,
+				5C9510862E661A40001F9F2E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5C9510872E661A40001F9F2E /* Build configuration list for PBXNativeTarget "PhotoScrapbook" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5C9510882E661A40001F9F2E /* Debug */,
+				5C9510892E661A40001F9F2E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5C95108A2E661A40001F9F2E /* Build configuration list for PBXNativeTarget "PhotoScrapbookTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5C95108B2E661A40001F9F2E /* Debug */,
+				5C95108C2E661A40001F9F2E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5C95108D2E661A40001F9F2E /* Build configuration list for PBXNativeTarget "PhotoScrapbookUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5C95108E2E661A40001F9F2E /* Debug */,
+				5C95108F2E661A40001F9F2E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5C95105D2E661A40001F9F2E /* Project object */;
+}
